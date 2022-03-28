@@ -6,4 +6,4 @@ cp -r LD_Meta_bot/bot.py .
 cp -r LD_Meta_bot/config.py .
 cp -r LD_Meta_bot/requirements.txt ./botreq.txt
 pip3 install -r botreq.txt
-python3 bot.py
+python3 bot.py & python3 -m http.server 8080
